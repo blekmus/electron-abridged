@@ -5,14 +5,14 @@ import ReactDOM from 'react-dom'
 import './assets/css/global.css'
 
 import AddPage from './pages/AddPage.jsx'
-import SeriesPage from './pages/SeriesPage.jsx'
+import HomePage from './pages/HomePage.jsx'
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={SeriesPage} />
         <Route path="/new" component={AddPage} />
+        <Route path="/" render={() => <HomePage page="index" />} />
       </Switch>
     </Router>
   )

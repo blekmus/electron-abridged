@@ -48,7 +48,7 @@ function EntryFiles({
       cursor: pointer;
       transition: 0.3s ease border-color;
 
-      &:hover {
+      &:active {
         border-color: #446b93;
 
         p {

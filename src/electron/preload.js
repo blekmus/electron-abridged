@@ -29,4 +29,11 @@ contextBridge.exposeInMainWorld('electron', {
       .then((result) => result)
       .catch((e) => e)
   ),
+
+  syncFolder: () => (
+    ipcRenderer
+      .invoke('syncFolder')
+      .then((result) => result)
+      .catch((e) => e)
+  ),
 })

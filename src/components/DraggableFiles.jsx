@@ -121,7 +121,7 @@ function DraggableFiles({
   const handleEntryNumInput = (e, path) => {
     const updatedFile = files.find((file) => file.path === path)
     const filesCopy = [...files]
-    filesCopy[files.indexOf(updatedFile)].ep_num = e.target.value
+    filesCopy[files.indexOf(updatedFile)].ep_num = Number(e.target.value)
     setFiles(filesCopy)
   }
 

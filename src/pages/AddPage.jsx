@@ -93,7 +93,6 @@ function AddPage() {
       .then((resp) => {
         console.log(resp)
         history.goBack()
-        // https://github.com/timolins/react-hot-toast
       })
       .catch((err) => console.log(err))
   }

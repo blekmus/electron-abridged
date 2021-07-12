@@ -1,5 +1,7 @@
 import { ipcMain } from 'electron'
 
+import { promises as fs } from 'fs'
+
 const low = require('lowdb')
 const FileAsync = require('lowdb/adapters/FileAsync')
 const lodashId = require('lodash-id')
@@ -11,7 +13,37 @@ low(adapter).then((db) => {
   db._.mixin(lodashId)
 
   // create json with defaults missing
-  db.defaults({ entries: [] }).write()
+  db.defaults({ entries: [], settings: { abrigedFileLocation: '/home/walker/Sandbox/Abridged' } }).write()
+
+  // set sync
+  ipcMain.handle('syncFolder', async () => {
+    const dir = await db.get('settings').get('abrigedFileLocation').value()
+    let files
+
+    try {
+      files = await fs.readdirSync(dir)
+    } catch (err) {
+      return err
+    }
+
+    console.log(files)
+
+    // check if all primary dirs exist
+    if (!files.includes('Series')) {
+      console.log('create series dir')
+      fs.mkdirSync(`${dir}/Series`)
+    }
+    if (!files.includes('Shorts')) {
+      console.log('create shorts dir')
+      fs.mkdirSync(`${dir}/Shorts`)
+    }
+    if (!files.includes('Shots')) {
+      console.log('create shots dir')
+      fs.mkdirSync(`${dir}/Shots`)
+    }
+
+    return 'something'
+  })
 
   // set new entry
   ipcMain.handle('setEntry', async (_e, data) => {

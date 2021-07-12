@@ -74,6 +74,10 @@ function EntryCreator({ names, setNames }) {
         border-bottom-color: #446b93;
       }
 
+      .drag-svg line {
+        stroke: #243B54;
+      }
+
       .close-btn {
         opacity: 0;
         position: absolute;
@@ -154,9 +158,9 @@ function EntryCreator({ names, setNames }) {
     <Draggable key={name.id}>
       <div className="drag-cont">
         <svg className="drag-svg" width="23" height="19" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="17.0077" y1="1.42517" x2="0.134861" y2="1.42517" stroke="#243B54" strokeWidth="2.3" />
-          <line x1="17.0077" y1="6.84854" x2="0.134861" y2="6.84854" stroke="#243B54" strokeWidth="2.3" />
-          <line x1="17.0077" y1="12.2719" x2="0.134861" y2="12.2719" stroke="#243B54" strokeWidth="2.3" />
+          <line x1="17.0077" y1="1.42517" x2="0.134861" y2="1.42517" strokeWidth="2.3" />
+          <line x1="17.0077" y1="6.84854" x2="0.134861" y2="6.84854" strokeWidth="2.3" />
+          <line x1="17.0077" y1="12.2719" x2="0.134861" y2="12.2719" strokeWidth="2.3" />
         </svg>
         <input type="text" placeholder="Creator name" value={name.name} onChange={(e) => handleInput(e, name.id)} />
 

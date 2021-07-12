@@ -1,15 +1,3731 @@
 {
   "entries": [
     {
-      "name": "pastal",
+      "name": "Another Abridged",
       "type": "series",
-      "id": "dbef86b1-5694-4bbb-b64f-9dca86bdbe6d"
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
     },
     {
-      "name": "mgx",
+      "name": "Another Abridged",
       "type": "series",
-      "id": "4f0a2668-850f-4c4e-aa7e-ec8a082c27d4"
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
+    },
+    {
+      "name": "Another Abridged",
+      "type": "series",
+      "description": "this is the one",
+      "tags": [
+        {
+          "name": "horror"
+        },
+        {
+          "name": "simple"
+        }
+      ],
+      "creator": [
+        {
+          "id": "b089ea69-b38d-41ce-aa03-04a4a5969dda",
+          "name": "2GSBootlegged"
+        },
+        {
+          "id": "332c988f-bc54-49c9-afd9-d2b8f03bb394",
+          "name": "Mad Hatter"
+        }
+      ],
+      "source": [
+        {
+          "id": "3ed99b5a-980c-4a21-a038-f20a690493da",
+          "name": "Another (2012)"
+        }
+      ],
+      "date_added": "2021-07-12T06:26:44.491Z",
+      "last_modified": "2021-07-12T06:26:44.491Z",
+      "files": [
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 1 - Mindreader's Curse.webm",
+          "name": "Mindreader's Curse",
+          "ep_num": 1,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 2 - ESP Club.webm",
+          "name": "ESP Club",
+          "ep_num": 2,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 3 - Super Saiyan Mode.webm",
+          "name": "Super Saiyan Mode",
+          "ep_num": 3,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 5 - Dark Side of a Spoon.webm",
+          "name": "Dark Side of a Spoon",
+          "ep_num": 4,
+          "ep_type": "ep",
+          "episodic": "yes"
+        },
+        {
+          "type": "series",
+          "path": "/home/walker/Sandbox/Abridged/Series/[Scourgemaster] Kotoura-san/Episode 4 - Alone Again Naturally.webm",
+          "name": "Alone Again Naturally",
+          "ep_num": 5,
+          "ep_type": "ep",
+          "episodic": "yes"
+        }
+      ],
+      "episodic": "yes",
+      "status": "finished",
+      "id": "4c986ce0-da10-40da-badf-71ea4c846ce6"
     }
   ],
-  "entryFiles": []
+  "settings": {
+    "abrigedFileLocation": "/home/walker/Sandbox/Abridged/"
+  }
 }
