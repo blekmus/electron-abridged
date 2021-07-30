@@ -1,49 +1,23 @@
-import { ipcMain } from 'electron'
+import { ipcMain, dialog, app } from 'electron'
 
-import { promises as fs } from 'fs'
-
+const fs = require('fs-extra')
+const path = require('path')
 const low = require('lowdb')
 const FileAsync = require('lowdb/adapters/FileAsync')
+const FileSync = require('lowdb/adapters/FileSync')
 const lodashId = require('lodash-id')
 
-const adapter = new FileAsync('entries.json')
+const appDBAdapter = new FileSync(path.join(app.getPath('userData'), 'appdata.json'))
+const appDB = low(appDBAdapter)
 
-low(adapter).then((db) => {
+const entriesAdapter = new FileAsync(path.join(appDB.get('settings.rootFolder').value(), 'entries.json'))
+
+low(entriesAdapter).then((db) => {
   // id support from lodash-id
   db._.mixin(lodashId)
 
   // create json with defaults missing
-  db.defaults({ entries: [], settings: { abrigedFileLocation: '/home/walker/Sandbox/Abridged' } }).write()
-
-  // set sync
-  ipcMain.handle('syncFolder', async () => {
-    const dir = await db.get('settings').get('abrigedFileLocation').value()
-    let files
-
-    try {
-      files = await fs.readdirSync(dir)
-    } catch (err) {
-      return err
-    }
-
-    console.log(files)
-
-    // check if all primary dirs exist
-    if (!files.includes('Series')) {
-      console.log('create series dir')
-      fs.mkdirSync(`${dir}/Series`)
-    }
-    if (!files.includes('Shorts')) {
-      console.log('create shorts dir')
-      fs.mkdirSync(`${dir}/Shorts`)
-    }
-    if (!files.includes('Shots')) {
-      console.log('create shots dir')
-      fs.mkdirSync(`${dir}/Shots`)
-    }
-
-    return 'something'
-  })
+  db.defaults({ entries: [] }).write()
 
   // set new entry
   ipcMain.handle('setEntry', async (_e, data) => {
@@ -63,9 +37,152 @@ low(adapter).then((db) => {
     return entry
   })
 
-  // get all entries
-  ipcMain.handle('getEntries', async () => {
-    const entries = await db.get('entries').value()
+  // get entries
+  ipcMain.handle('getEntries', async (_e, page) => {
+    let entries
+
+    if (page === 'index') {
+      entries = await db.get('entries').value()
+    }
+
+    if (page === 'series') {
+      entries = await db.get('entries').filter({ type: 'series' }).value()
+    }
+
+    if (page === 'short') {
+      entries = await db.get('entries').filter({ type: 'short' }).value()
+    }
+
+    if (page === 'shot') {
+      entries = await db.get('entries').filter({ type: 'shot' }).value()
+    }
+
     return entries
   })
+
+  ipcMain.handle('selectFolder', async () => {
+    const dir = await dialog.showOpenDialog({ properties: ['openDirectory'] })
+    return dir.filePaths[0]
+  })
+
+  // get root folder
+  ipcMain.handle('getRootFolder', async () => {
+    const loc = appDB.get('settings.rootFolder').value()
+    return loc
+  })
+
+  // check if supplied folder has the necessary dirs
+  ipcMain.handle('checkRootFolder', async (_e, data) => {
+    let files
+
+    try {
+      files = await fs.readdir(data)
+    } catch (err) {
+      return {
+        success: false,
+        issues: err,
+      }
+    }
+
+    // check if all primary dirs and files exist
+    if (!files.includes('Series') || !files.includes('Shorts') || !files.includes('Shots')) {
+      return {
+        success: false,
+        issues: 'PRIMARY_DIRS_MISSING',
+      }
+    }
+    return {
+      success: true,
+      issues: null,
+    }
+  })
+
+  // update the appDB rootFolder and copy files
+  ipcMain.handle('setRootFolder', async (_e, data) => {
+    // get old location
+    const loc = appDB.get('settings.rootFolder').value()
+
+    try {
+      // copy entry files and entryDB to new dest
+      await fs.copy(loc, data, { preserveTimestamps: true })
+    } catch (err) {
+      return {
+        success: false,
+        issues: err,
+      }
+    }
+
+    // save new location
+    appDB.get('settings').set('rootFolder', data).write()
+
+    return {
+      success: true,
+      issues: null,
+    }
+  })
+
+  // create rootFolder sub folders
+  ipcMain.handle('createRootFolder', async (_e, data) => {
+    try {
+      await fs.mkdir(`${data}/Series`)
+      await fs.mkdir(`${data}/Shorts`)
+      await fs.mkdir(`${data}/Shots`)
+    } catch (err) {
+      return {
+        success: false,
+        issues: err,
+      }
+    }
+
+    return {
+      success: true,
+      issues: null,
+    }
+  })
 })
+
+// JSON Generator template
+
+// JG.repeat(
+//   50,
+//   {
+//     id: JG.guid(),
+
+//     description: JG.loremIpsum({
+//       sentenceLowerBound: 5,
+//       sentenceUpperBound: 50
+//     }),
+
+//     name: JG.loremIpsum({ units: 'words', count: JG.integer(1, 3) }),
+
+//     creators: JG.repeat(
+//       JG.integer(1, 2),
+//       JG.firstName()
+//     ),
+
+//     sources: JG.repeat(
+//       JG.integer(1, 3),
+//       JG.company()
+//     ),
+
+//     type: JG.random('series', 'short', 'shot'),
+
+//     tags: JG.repeat(
+//       JG.integer(1, 3),
+//       JG.loremIpsum({ units: 'words', count: 1 })
+//     ),
+
+//     date_added: JG.date(),
+
+//     date_updated: JG.date(),
+
+//     episodic: JG.random('yes', 'no'),
+
+//     status: JG.random(
+//       'finished',
+//       'releasing',
+//       'abandoned',
+//       'irrelevant'
+//     ),
+//   }
+// );

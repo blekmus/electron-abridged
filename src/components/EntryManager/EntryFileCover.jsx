@@ -4,7 +4,12 @@ import PropTypes from 'prop-types'
 import { useRef } from 'react'
 import prettyBytes from 'pretty-bytes'
 
-function Cover({ file, handleFileInput, handleFileDel }) {
+function Cover({
+  file,
+  handleFileInput,
+  handleFileDel,
+  handleFileCrop,
+}) {
   const styles = css`
     width: 272px;
     height: 213px;
@@ -40,16 +45,26 @@ function Cover({ file, handleFileInput, handleFileDel }) {
       }
 
       &:hover {
-        .delete {
+        .overlay-btn {
           opacity: 1;
         }
 
         .change {
-          opacity: 50%;
+          opacity: 1;
+          background-color: #0000008f;
         }
       }
 
-      .delete {
+      .overlay-btns {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 4;
+        display: flex;
+        column-gap: 9px;
+      }
+
+      .overlay-btn {
         font-size: 13px;
         font-weight: 800;
         background-color: #dc3939;
@@ -58,15 +73,16 @@ function Cover({ file, handleFileInput, handleFileDel }) {
         border-radius: 3px;
         width: 60px;
         height: 25px;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        z-index: 4;
         opacity: 0;
         transition: 0.2s ease opacity, 0.2s ease background-color;
+        cursor: pointer;
 
         &:active {
           background-color: #a22727;
+        }
+
+        &.crop {
+          width: 45px;
         }
       }
 
@@ -76,6 +92,7 @@ function Cover({ file, handleFileInput, handleFileDel }) {
         z-index: 2;
         height: 100%;
         width: 100%;
+        border-radius: 6px 6px 0 0;
         background-color: black;
         display: flex;
         justify-content: center;
@@ -147,16 +164,28 @@ function Cover({ file, handleFileInput, handleFileDel }) {
             <div className="top">
               <input ref={fileInputBox} type="file" multiple={false} accept=".png, .jpg, .jpeg" onInput={(e) => handleFileInput(e, file.path)} />
 
-              <button
-                className="delete"
-                type="button"
-                onClick={(e) => {
-                  handleFileDel(e, file.path)
-                  fileInputBox.current.value = ''
-                }}
-              >
-                REMOVE
-              </button>
+              <div className="overlay-btns">
+                <button
+                  className="crop overlay-btn"
+                  type="button"
+                  onClick={() => {
+                    handleFileCrop([file.path, file.cover_path])
+                  }}
+                >
+                  CROP
+                </button>
+
+                <button
+                  className="delete overlay-btn"
+                  type="button"
+                  onClick={(e) => {
+                    handleFileDel(e, file.path)
+                    fileInputBox.current.value = ''
+                  }}
+                >
+                  REMOVE
+                </button>
+              </div>
 
               <img src={`absfile://${file.cover_path}`} alt={file.name} />
 
@@ -197,6 +226,7 @@ function Cover({ file, handleFileInput, handleFileDel }) {
 
 Cover.propTypes = {
   handleFileDel: PropTypes.func.isRequired,
+  handleFileCrop: PropTypes.func.isRequired,
   handleFileInput: PropTypes.func.isRequired,
   file: PropTypes.objectOf(
     PropTypes.oneOfType([

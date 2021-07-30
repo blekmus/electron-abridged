@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 import InputElement from './InputElement.jsx'
 
-function EntryName({ name, type }) {
+function EntryName({ name, type, setName }) {
   const styles = css`
     position: relative;
     margin-top: 50px;
@@ -56,28 +56,22 @@ function EntryName({ name, type }) {
     description = 'The name may be the shot’s name if there’s only one. If not, it should be a general name that identifies all shots.'
   }
 
-  // handle name input box
-  const handleInput = (e) => {
-    name.current = e.target.value
-  }
-
   return (
     <div css={styles}>
       <div className="line" />
       <div className="cont">
         <h2>{ title }</h2>
         <p>{description}</p>
-        <InputElement placeholder="Enter something" onChange={handleInput} />
+        <InputElement placeholder="Enter something" value={name} onChange={(e) => setName(e.target.value)} />
       </div>
     </div>
   )
 }
 
 EntryName.propTypes = {
-  name: PropTypes.objectOf(
-    PropTypes.string,
-  ).isRequired,
+  name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
+  setName: PropTypes.func.isRequired,
 }
 
 export default EntryName

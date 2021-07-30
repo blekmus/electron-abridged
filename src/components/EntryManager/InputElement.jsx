@@ -2,7 +2,7 @@
 import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
 
-function inputElement({ placeholder, onChange }) {
+function inputElement({ placeholder, onChange, value }) {
   const styles = css`
     input {
       max-width: 350px;
@@ -28,7 +28,7 @@ function inputElement({ placeholder, onChange }) {
 
   return (
     <div css={styles}>
-      <input type="text" placeholder={placeholder} onChange={onChange} />
+      <input type="text" placeholder={placeholder} value={value} onChange={onChange} />
     </div>
   )
 }

@@ -1,9 +1,11 @@
-/* eslint-disable no-param-reassign */
+/* eslint-disable prefer-destructuring */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
+import { useState } from 'react'
 
 import Cover from './EntryFileCover.jsx'
+import EntryCropper from './EntryCropper.jsx'
 
 function EntryCovers({ files, setFiles }) {
   const styles = css`
@@ -43,8 +45,15 @@ function EntryCovers({ files, setFiles }) {
       column-gap: 20px;
       max-width: 1000px;
       row-gap: 10px;
+      margin-bottom: 30px;
     }
   `
+
+  // false / 'file path'
+  const [cropper, setCropper] = useState(false)
+
+  // [area-in-percentages, area-in-pixels]
+  const [cropArea, setCropArea] = useState()
 
   // handle entry cover image input and save path and size to 'files' state
   const handleFileInput = (e, path) => {
@@ -64,9 +73,27 @@ function EntryCovers({ files, setFiles }) {
     setFiles(filesCopy)
   }
 
+  // handle cover crop btn press to display cropper component
+  const handleFileCrop = (path) => {
+    setCropper(path)
+  }
+
+  // handle saving cropped filepath and size to 'files' state
+  const handleCropSave = () => {
+    const updatedItem = files.find((file) => file.path === cropper[0])
+    const filesCopy = [...files]
+
+    window.electron.cropImg(updatedItem.cover_path, cropArea[1]).then((e) => {
+      filesCopy[files.indexOf(updatedItem)].cover_path = e[0]
+      filesCopy[files.indexOf(updatedItem)].cover_size = e[1]
+      setFiles(filesCopy)
+      setCropper(false)
+    })
+  }
+
   // create cover input boxes from state
   const covers = files.map((file) => (
-    <Cover file={file} key={file.path} handleFileInput={handleFileInput} handleFileDel={handleFileDel} />
+    <Cover file={file} key={file.path} handleFileInput={handleFileInput} handleFileDel={handleFileDel} handleFileCrop={handleFileCrop} />
   ))
 
   return (
@@ -80,6 +107,9 @@ function EntryCovers({ files, setFiles }) {
         <div className="covers">
           {covers}
         </div>
+
+        {/* if cropper state is true, display cropper component */}
+        {(cropper) ? <EntryCropper path={cropper[1]} setCropper={setCropper} setCropArea={setCropArea} saveCrop={handleCropSave} /> : ''}
       </div>
     </div>
   )

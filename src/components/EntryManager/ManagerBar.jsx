@@ -3,13 +3,17 @@ import { css, jsx } from '@emotion/react'
 import { useHistory } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
-function AddPageTopBar({ save }) {
+function ManagerBar({ save, page }) {
   const styles = css`
     display: flex;
     justify-content: space-between;
-    padding: 0 35px;
-    height: 90px;
+    padding: 0 0 0 35px;
+    height: 65px;
     align-items: center;
+    background-color: #0E1925;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 
     h1 {
       color: white;
@@ -25,33 +29,31 @@ function AddPageTopBar({ save }) {
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 10px;
 
       button {
-        font-family: 'Source Sans Pro';
+        height: 100%;
         border: none;
-        font-size: 15px;
+        width: 90px;
+        font-size: 17px;
         font-weight: 700;
-        letter-spacing: 1px;
-        height: 32px;
-        width: 80px;
-        letter-spacing: 1px;
-        border-radius: 5px;
-        background-color: #162C42;
+        letter-spacing: 1.2px;
+        cursor: pointer;
 
-        &.cancel-btn {
+
+        &.save-btn {
+          background-color: #112130;
           color: #FF5E5E;
 
           &:active {
-            background-color: #122538;
+            background-color: #112130b5;
           }
         }
 
-        &.save-btn {
+        &.cancel-btn {
           background: none;
 
           &:active {
-            background-color: #0e1d2c;
+            background-color: #00000017;
           }
         }
       }
@@ -61,17 +63,21 @@ function AddPageTopBar({ save }) {
 
   return (
     <div css={styles}>
-      <h1 className="main-title">NEW ENTRY</h1>
+      <h1 className="main-title">
+        {`${page.toUpperCase()} `}
+        ENTRY
+      </h1>
       <div className="btns">
-        <button type="button" className="save-btn" onClick={save}>SAVE</button>
         <button type="button" className="cancel-btn" onClick={() => history.goBack()}>CANCEL</button>
+        <button type="button" className="save-btn" onClick={save}>SAVE</button>
       </div>
     </div>
   )
 }
 
-AddPageTopBar.propTypes = {
+ManagerBar.propTypes = {
   save: PropTypes.func.isRequired,
+  page: PropTypes.string.isRequired,
 }
 
-export default AddPageTopBar
+export default ManagerBar

@@ -2,9 +2,9 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
-import TextareaAutosize from 'react-autosize-textarea'
+import TextareaAutosize from 'react-textarea-autosize'
 
-function EntryDescription({ name }) {
+function EntryDescription({ desc, setDesc }) {
   const styles = css`
     position: relative;
     margin-top: 50px;
@@ -58,27 +58,21 @@ function EntryDescription({ name }) {
     }
   `
 
-  // handle description input box
-  const handleInput = (e) => {
-    name.current = e.target.value
-  }
-
   return (
     <div css={styles}>
       <div className="line" />
       <div className="cont">
         <h2>Description</h2>
         <p>A few words about what all the fuss is about</p>
-        <TextareaAutosize onChange={handleInput} className="textbox" placeholder="A few words..." />
+        <TextareaAutosize onChange={(e) => setDesc(e.target.value)} value={desc} className="textbox" placeholder="A few words..." />
       </div>
     </div>
   )
 }
 
 EntryDescription.propTypes = {
-  name: PropTypes.objectOf(
-    PropTypes.string,
-  ).isRequired,
+  desc: PropTypes.string.isRequired,
+  setDesc: PropTypes.func.isRequired,
 }
 
 export default EntryDescription

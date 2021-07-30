@@ -2,7 +2,7 @@
 import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
 import { Container, Draggable } from 'react-smooth-dnd'
-import applyDrag from '../assets/js/applyDrag'
+import applyDrag from '../../assets/js/applyDrag'
 
 function DraggableFiles({
   files,
@@ -12,7 +12,7 @@ function DraggableFiles({
     .drag-cont {
       position: relative;
       display: flex;
-      max-width: 550px;
+      max-width: 570px;
       width: 90%;
       height: 55px;
       border-radius: 7px;
@@ -53,7 +53,6 @@ function DraggableFiles({
         width: 100%;
         padding: 6px 0;
         flex: 1;
-        margin-right: 10px;
         display: flex;
       }
 
@@ -115,13 +114,39 @@ function DraggableFiles({
           cursor: default;
         }
       }
+
+      .play-btn {
+        background: none;
+        border: none;
+        width: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:active svg {
+          fill: #263442;
+        }
+
+        svg {
+          height: 18px;
+          fill: #304559;
+        }
+      }
     }
   `
 
   const handleEntryNumInput = (e, path) => {
     const updatedFile = files.find((file) => file.path === path)
     const filesCopy = [...files]
-    filesCopy[files.indexOf(updatedFile)].ep_num = Number(e.target.value)
+    filesCopy[files.indexOf(updatedFile)].ep_num = e.target.value
+    setFiles(filesCopy)
+  }
+
+  const handleEntryNumBlur = (e, path) => {
+    const updatedFile = files.find((file) => file.path === path)
+    const filesCopy = [...files]
+    filesCopy[files.indexOf(updatedFile)].ep_num = Number.isNaN(Number(e.target.value)) ? 0 : Number(e.target.value)
     setFiles(filesCopy)
   }
 
@@ -146,6 +171,12 @@ function DraggableFiles({
     setFiles(filteredFiles)
   }
 
+  const handlePlayBtn = (path) => {
+    window.electron.openVid(path)
+      .then((e) => console.log(e))
+      .catch((e) => console.log(e))
+  }
+
   const dragBoxes = files.map((file) => {
     let inputBoxes
     if (file.type === 'series') {
@@ -153,25 +184,40 @@ function DraggableFiles({
         <div className="input-box">
           {
             (file.episodic === 'yes')
-              ? <input type="text" value={file.ep_num} className="entrynum-input" onChange={(e) => handleEntryNumInput(e, file.path)} />
+              ? <input type="text" value={file.ep_num} className="entrynum-input" onBlur={(e) => handleEntryNumBlur(e, file.path)} onChange={(e) => handleEntryNumInput(e, file.path)} />
               : ''
           }
           <button type="button" className="type-input" onClick={(e) => handleTypeBtn(e, file.path)}>{file.ep_type}</button>
           <input type="text" value={file.name} className="filename-input" onChange={(e) => handleFilenameInput(e, file.path)} />
+          <button type="button" className="play-btn" onClick={() => handlePlayBtn(file.path)}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.861 163.861">
+              <path d="M34.857,3.613C20.084-4.861,8.107,2.081,8.107,19.106v125.637c0,17.042,11.977,23.975,26.75,15.509L144.67,97.275c14.778-8.477,14.778-22.211,0-30.686L34.857,3.613z" />
+            </svg>
+          </button>
         </div>
       )
     } else if (file.type === 'short') {
       inputBoxes = (
         <div className="input-box">
           <input type="text" value={file.name} className="filename-input" onChange={(e) => handleFilenameInput(e, file.path)} />
+          <button type="button" className="play-btn" onClick={() => handlePlayBtn(file.path)}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.861 163.861">
+              <path d="M34.857,3.613C20.084-4.861,8.107,2.081,8.107,19.106v125.637c0,17.042,11.977,23.975,26.75,15.509L144.67,97.275c14.778-8.477,14.778-22.211,0-30.686L34.857,3.613z" />
+            </svg>
+          </button>
         </div>
       )
     } else {
       inputBoxes = (
         <div className="input-box">
-          <input type="text" value={file.ep_num} className="entrynum-input" onChange={(e) => handleEntryNumInput(e, file.path)} />
+          <input type="text" value={file.ep_num} className="entrynum-input" onBlur={(e) => handleEntryNumBlur(e, file.path)} onChange={(e) => handleEntryNumInput(e, file.path)} />
           <button type="button" className="type-input" disabled>{file.ep_type}</button>
           <input type="text" value={file.name} className="filename-input" onChange={(e) => handleFilenameInput(e, file.path)} />
+          <button type="button" className="play-btn" onClick={() => handlePlayBtn(file.path)}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.861 163.861">
+              <path d="M34.857,3.613C20.084-4.861,8.107,2.081,8.107,19.106v125.637c0,17.042,11.977,23.975,26.75,15.509L144.67,97.275c14.778-8.477,14.778-22.211,0-30.686L34.857,3.613z" />
+            </svg>
+          </button>
         </div>
       )
     }

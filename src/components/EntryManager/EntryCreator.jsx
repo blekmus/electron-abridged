@@ -4,9 +4,9 @@ import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
 import { Container, Draggable } from 'react-smooth-dnd'
 import { v4 as uuid } from 'uuid'
-import applyDrag from '../assets/js/applyDrag'
+import applyDrag from '../../assets/js/applyDrag'
 
-function EntrySource({ sources, setSources }) {
+function EntryCreator({ names, setNames }) {
   const styles = css`
     position: relative;
     margin-top: 50px;
@@ -69,9 +69,13 @@ function EntrySource({ sources, setSources }) {
       &:focus-within .close-btn {
         opacity: 1;
       }
-
+  
       &:focus-within {
         border-bottom-color: #446b93;
+      }
+
+      .drag-svg line {
+        stroke: #243B54;
       }
 
       .close-btn {
@@ -129,37 +133,38 @@ function EntrySource({ sources, setSources }) {
 
   // save input data to state on every keypress
   const handleInput = (e, id) => {
-    const updatedItem = sources.find((name) => name.id === id)
-    const sourcesCopy = [...sources]
-    sourcesCopy[sources.indexOf(updatedItem)].name = e.target.value
-    setSources(sourcesCopy)
+    const updatedItem = names.find((name) => name.id === id)
+    const namesCopy = [...names]
+    namesCopy[names.indexOf(updatedItem)].name = e.target.value
+    setNames(namesCopy)
   }
 
-  // handle new source inputbox add btn
+  // handle new creator inputbox add btn
   const handleAddBtn = () => {
-    const sourcesCopy = [...sources]
-    sourcesCopy.push({ id: uuid(), name: '' })
-    setSources(sourcesCopy)
+    const namesCopy = [...names]
+    namesCopy.push({ id: uuid(), name: '' })
+    setNames(namesCopy)
   }
 
-  // create input boxes from 'sources' array state
+  // handle creator inputbox delete btn
   const handleDelBtn = (id) => {
-    const delItem = sources.find((source) => source.id === id)
-    const filteredItems = sources.filter((item) => item !== delItem)
-    setSources(filteredItems)
+    const delItem = names.find((name) => name.id === id)
+    const filteredItems = names.filter((item) => item !== delItem)
+    setNames(filteredItems)
   }
 
-  const inputBoxes = sources.map((source) => (
-    <Draggable key={source.id}>
+  // create input boxes from 'names' array state
+  const inputBoxes = names.map((name) => (
+    <Draggable key={name.id}>
       <div className="drag-cont">
         <svg className="drag-svg" width="23" height="19" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="17.0077" y1="1.42517" x2="0.134861" y2="1.42517" stroke="#243B54" strokeWidth="2.3" />
-          <line x1="17.0077" y1="6.84854" x2="0.134861" y2="6.84854" stroke="#243B54" strokeWidth="2.3" />
-          <line x1="17.0077" y1="12.2719" x2="0.134861" y2="12.2719" stroke="#243B54" strokeWidth="2.3" />
+          <line x1="17.0077" y1="1.42517" x2="0.134861" y2="1.42517" strokeWidth="2.3" />
+          <line x1="17.0077" y1="6.84854" x2="0.134861" y2="6.84854" strokeWidth="2.3" />
+          <line x1="17.0077" y1="12.2719" x2="0.134861" y2="12.2719" strokeWidth="2.3" />
         </svg>
-        <input type="text" placeholder="Source name" value={source.name} onChange={(e) => handleInput(e, source.id)} />
+        <input type="text" placeholder="Creator name" value={name.name} onChange={(e) => handleInput(e, name.id)} />
 
-        <button type="button" className="close-btn" onClick={() => handleDelBtn(source.id)}>
+        <button type="button" className="close-btn" onClick={() => handleDelBtn(name.id)}>
           <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.30999 7.03309L13.6411 2.70201C14.1196 2.22347 14.1196 1.44764 13.6411 0.969844L13.0637 0.392456C12.585 -0.0862334 11.8092 -0.0862334 11.3314 0.392456L7.00044 4.72339L2.66935 0.391559C2.19081 -0.0869811 1.41498 -0.0869811 0.93719 0.391559L0.358905 0.968946C-0.119635 1.44764 -0.119635 2.22347 0.358905 2.70126L4.69073 7.03309L0.359802 11.364C-0.118887 11.8427 -0.118887 12.6185 0.359802 13.0963L0.93719 13.6737C1.41573 14.1523 2.19156 14.1523 2.66935 13.6737L7.00044 9.34264L11.3314 13.6737C11.8101 14.1523 12.5859 14.1523 13.0637 13.6737L13.6411 13.0963C14.1196 12.6176 14.1196 11.8418 13.6411 11.364L9.30999 7.03309Z" />
           </svg>
@@ -173,13 +178,13 @@ function EntrySource({ sources, setSources }) {
       <div className="line" />
 
       <div className="cont">
-        <h2>Entry Source(s)</h2>
-        <p>The original creation the entry set is based on.</p>
+        <h2>Creator(s)</h2>
+        <p>People or groups responsible for the creation of the entry.</p>
 
         <Container
           dragHandleSelector=".drag-svg"
           lockAxis="y"
-          onDrop={(e) => setSources(applyDrag(sources, e))}
+          onDrop={(e) => setNames(applyDrag(names, e))}
         >
           {inputBoxes}
         </Container>
@@ -190,8 +195,8 @@ function EntrySource({ sources, setSources }) {
   )
 }
 
-EntrySource.propTypes = {
-  sources: PropTypes.arrayOf(
+EntryCreator.propTypes = {
+  names: PropTypes.arrayOf(
     PropTypes.objectOf(
       PropTypes.oneOfType([
         PropTypes.string,
@@ -199,7 +204,7 @@ EntrySource.propTypes = {
       ]),
     ),
   ).isRequired,
-  setSources: PropTypes.func.isRequired,
+  setNames: PropTypes.func.isRequired,
 }
 
-export default EntrySource
+export default EntryCreator

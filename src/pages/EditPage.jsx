@@ -1,8 +1,9 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/react'
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { v4 as uuid } from 'uuid'
 import { useHistory } from 'react-router-dom'
+import { useParams } from 'react-router'
 import toast, { Toaster } from 'react-hot-toast'
 
 // top bar component
@@ -20,7 +21,9 @@ import EntryFiles from '../components/EntryManager/EntryFiles.jsx'
 import EntryCovers from '../components/EntryManager/EntryCovers.jsx'
 import EntrySource from '../components/EntryManager/EntrySource.jsx'
 
-function AddPage() {
+function EditPage() {
+  const { id } = useParams()
+
   const [entryName, setEntryName] = useState('')
   const [entryDesc, setEntryDesc] = useState('')
   const [entryCreators, setEntryCreators] = useState([{ id: uuid(), name: '' }])
@@ -31,7 +34,7 @@ function AddPage() {
   // series / short / shot
   const [entryType, setEntryType] = useState('series')
 
-  // yes (episodic) / no (fragmented)
+  // yes - episodic / no - fragmented
   const [seriesEpisodic, setSeriesEpisodic] = useState('yes')
 
   // releasing / finished / abandoned / irrelevant
@@ -40,6 +43,32 @@ function AddPage() {
   // scroll to top on react-router page change
   useEffect(() => {
     window.scrollTo(0, 0)
+
+    window.electron.getEntry({ id }).then((e) => {
+      setEntryName(e.name)
+      setEntryDesc(e.description)
+      setEntryType(e.type)
+      setSeriesEpisodic(e.episodic)
+      setEntryStatus(e.status)
+      console.log(e.status)
+      console.log(entryStatus)
+
+      setEntryCreators(e.creators.map((creator) => ({
+        id: uuid(),
+        name: creator,
+      })))
+
+      setEntrySources(e.sources.map((source) => ({
+        id: uuid(),
+        name: source,
+      })))
+
+      setEntryTags(e.tags.map((tag) => ({
+        name: tag,
+      })))
+
+      setEntryFiles(e.files)
+    })
   }, [])
 
   const history = useHistory()
@@ -210,7 +239,7 @@ function AddPage() {
       newEntry.status = null
     }
 
-    window.electron.setEntry(newEntry)
+    window.electron.updateEntry(id, newEntry)
       .then((resp) => {
         console.log(resp)
         history.goBack()
@@ -220,7 +249,7 @@ function AddPage() {
 
   return (
     <div>
-      <ManagerBar save={saveData} page="add" />
+      <ManagerBar save={saveData} page="edit" />
 
       <Toaster
         position="top-right"
@@ -256,4 +285,4 @@ function AddPage() {
   )
 }
 
-export default AddPage
+export default EditPage

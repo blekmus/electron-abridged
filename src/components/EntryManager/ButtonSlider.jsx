@@ -88,7 +88,7 @@ function ButtonSlider({
       const initial = options.indexOf(curOption) * btnWidth
       backBtn.current.style.left = `${initial}px`
     }
-  }, [])
+  }, [currentOption])
 
   // initializing framer motion
   const controls = useAnimation()

@@ -2,10 +2,7 @@
 import { css, jsx } from '@emotion/react'
 import PropTypes from 'prop-types'
 
-// images
-import IndexCard from '../assets/images/index-card.png'
-
-function HomeHeader({ page }) {
+function EntryHeader({ image, title, creators }) {
   const styles = css`
     height: 350px;
     width: 100%;
@@ -22,21 +19,19 @@ function HomeHeader({ page }) {
       align-items: center;
       flex-direction: column;
 
-      .en {
+      .creators {
         font-family: 'Bebas Neue';
-        font-size: 180px;
-        opacity: 10%;
+        font-size: 35px;
+        color: #E0E0E0;
+        opacity: 70%;
         text-align: center;
-        letter-spacing: 20px;
-        line-height: 110px;
+        letter-spacing: 1px;
       }
 
-      .jp {
-        font-family: 'M1+P';
-        font-size: 75px;
+      .title {
+        font-weight: 600;
+        font-size: 70px;
         text-align: center;
-        word-wrap: none;
-        line-height: 0;
       }
     }
 
@@ -61,32 +56,28 @@ function HomeHeader({ page }) {
     }
   `
 
-  // init variables
-  let image
-  let enText
-  let jpText
-
-  // resolve variables
-  if (page === 'index') {
-    image = IndexCard
-    enText = 'ABRIDGED'
-    jpText = 'アブリッジド'
-  }
-
   return (
     <div css={styles}>
       <div className="text">
-        <h1 className="en">{enText}</h1>
-        <h1 className="jp">{jpText}</h1>
+        <h1 className="title">{title}</h1>
+        <h2 className="creators">{creators.join(' // ')}</h2>
       </div>
       <div className="blur-layer" />
-      <img src={image} alt="background" />
+      <img src={(image !== '') ? `absfile://${image}` : ''} alt="background" />
     </div>
   )
 }
 
-HomeHeader.propTypes = {
-  page: PropTypes.string.isRequired,
+EntryHeader.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  creators: PropTypes.arrayOf(PropTypes.string),
 }
 
-export default HomeHeader
+EntryHeader.defaultProps = {
+  image: '',
+  title: '',
+  creators: [],
+}
+
+export default EntryHeader

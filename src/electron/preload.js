@@ -1,10 +1,13 @@
-import { contextBridge, ipcRenderer } from 'electron'
+import {
+  contextBridge,
+  ipcRenderer,
+} from 'electron'
 
 // ipcs
 contextBridge.exposeInMainWorld('electron', {
-  getEntries: () => (
+  getEntries: (page) => (
     ipcRenderer
-      .invoke('getEntries')
+      .invoke('getEntries', page)
       .then((result) => result)
       .catch((e) => e)
   ),
@@ -30,10 +33,63 @@ contextBridge.exposeInMainWorld('electron', {
       .catch((e) => e)
   ),
 
-  syncFolder: () => (
+  openVid: (data) => (
     ipcRenderer
-      .invoke('syncFolder')
+      .invoke('openVid', data)
       .then((result) => result)
       .catch((e) => e)
   ),
+
+  cropImg: (data, crop) => (
+    ipcRenderer
+      .invoke('cropImg', data, crop)
+      .then((result) => result)
+      .catch((e) => e)
+  ),
+
+  selectFolder: () => (
+    ipcRenderer
+      .invoke('selectFolder')
+      .then((result) => result)
+      .catch((e) => e)
+  ),
+
+  getRootFolder: () => (
+    ipcRenderer
+      .invoke('getRootFolder')
+      .then((result) => result)
+      .catch((e) => e)
+  ),
+
+  setRootFolder: (data) => (
+    ipcRenderer
+      .invoke('setRootFolder')
+      .then((result) => result, data)
+      .catch((e) => e)
+  ),
+
+  checkRootFolder: (data) => (
+    ipcRenderer
+      .invoke('checkRootFolder', data)
+      .then((result) => result)
+      .catch((e) => e)
+  ),
+
+  createRootFolder: (data) => (
+    ipcRenderer
+      .invoke('createRootFolder', data)
+      .then((result) => result)
+      .catch((e) => e)
+  ),
+
+  // restartDialog: () => {
+  //   dialog.showMessageBox(null, {
+  //     type: 'question',
+  //     buttons: ['Restart'],
+  //     message: 'Restart app for changes to take effect',
+  //   }, () => {
+  //     app.relaunch()
+  //     app.exit(0)
+  //   })
+  // },
 })
