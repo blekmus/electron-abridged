@@ -17,7 +17,7 @@
     "plugins": [
         "react"
     ],
-    "ignorePatterns": ["webpack*", "main.js"],
+    "ignorePatterns": ["webpack*"],
     "rules": {
         "semi": ["error", "never"],
         "no-console": "off",

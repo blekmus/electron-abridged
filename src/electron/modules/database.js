@@ -1,16 +1,15 @@
-import { ipcMain, dialog, app } from 'electron'
+import { ipcMain, app } from 'electron'
+import { mkdir, readdir, copy } from 'fs-extra'
+import { join } from 'path'
+import low from 'lowdb'
+import FileAsync from 'lowdb/adapters/FileAsync'
+import FileSync from 'lowdb/adapters/FileSync'
+import lodashId from 'lodash-id'
 
-const fs = require('fs-extra')
-const path = require('path')
-const low = require('lowdb')
-const FileAsync = require('lowdb/adapters/FileAsync')
-const FileSync = require('lowdb/adapters/FileSync')
-const lodashId = require('lodash-id')
-
-const appDBAdapter = new FileSync(path.join(app.getPath('userData'), 'appdata.json'))
+const appDBAdapter = new FileSync(join(app.getPath('userData'), 'appdata.json'))
 const appDB = low(appDBAdapter)
 
-const entriesAdapter = new FileAsync(path.join(appDB.get('settings.rootFolder').value(), 'entries.json'))
+const entriesAdapter = new FileAsync(join(appDB.get('settings.rootFolder').value(), 'entries.json'))
 
 low(entriesAdapter).then((db) => {
   // id support from lodash-id
@@ -60,11 +59,6 @@ low(entriesAdapter).then((db) => {
     return entries
   })
 
-  ipcMain.handle('selectFolder', async () => {
-    const dir = await dialog.showOpenDialog({ properties: ['openDirectory'] })
-    return dir.filePaths[0]
-  })
-
   // get root folder
   ipcMain.handle('getRootFolder', async () => {
     const loc = appDB.get('settings.rootFolder').value()
@@ -76,7 +70,7 @@ low(entriesAdapter).then((db) => {
     let files
 
     try {
-      files = await fs.readdir(data)
+      files = await readdir(data)
     } catch (err) {
       return {
         success: false,
@@ -104,7 +98,7 @@ low(entriesAdapter).then((db) => {
 
     try {
       // copy entry files and entryDB to new dest
-      await fs.copy(loc, data, { preserveTimestamps: true })
+      await copy(loc, data, { preserveTimestamps: true })
     } catch (err) {
       return {
         success: false,
@@ -124,9 +118,9 @@ low(entriesAdapter).then((db) => {
   // create rootFolder sub folders
   ipcMain.handle('createRootFolder', async (_e, data) => {
     try {
-      await fs.mkdir(`${data}/Series`)
-      await fs.mkdir(`${data}/Shorts`)
-      await fs.mkdir(`${data}/Shots`)
+      await mkdir(`${data}/Series`)
+      await mkdir(`${data}/Shorts`)
+      await mkdir(`${data}/Shots`)
     } catch (err) {
       return {
         success: false,

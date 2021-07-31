@@ -155,6 +155,7 @@ function RootFolder({ toast }) {
     })
   }, [])
 
+  // if all goes well, set the root folder
   const setRootFolder = async (dir) => {
     const resp = await window.electron.setRootFolder(dir)
 
@@ -177,6 +178,7 @@ function RootFolder({ toast }) {
         },
         duration: 4000,
       })
+      return
     }
 
     setFolderLoc(dir)
@@ -200,13 +202,16 @@ function RootFolder({ toast }) {
       },
       duration: 100000,
     })
+
+    window.electron.restartDialog()
   }
 
+  // if subfolders don't exist, create it error btn
   const handleCreateFolderBtn = async (dir) => {
     const create = await window.electron.createRootFolder(dir)
 
     if (create.success) {
-      setRootFolder()
+      setRootFolder(dir)
       return
     }
 
@@ -230,20 +235,19 @@ function RootFolder({ toast }) {
     })
   }
 
+  // handle change folder btn
   const handleFolderBtn = async () => {
-    window.electron.restartDialog()
-    return
-
     const dir = await window.electron.selectFolder()
 
     if (!dir) {
       return
     }
 
+    // check if dirs exist and this folder is usable
     const check = await window.electron.checkRootFolder(dir)
 
     if (check.success) {
-      setFolderLoc(dir)
+      setRootFolder(dir)
     } else if (check.issues === 'PRIMARY_DIRS_MISSING') {
       setTempLoc(dir)
       setError((
@@ -281,6 +285,7 @@ function RootFolder({ toast }) {
     }
   }
 
+  // handle temp folder select cancel
   const handleCancelBtn = () => {
     setTempLoc(null)
     setError(null)

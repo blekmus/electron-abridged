@@ -1,16 +1,16 @@
-const { app, BrowserWindow, protocol } = require('electron')
-const path = require('path')
-const low = require('lowdb')
-const FileAsync = require('lowdb/adapters/FileAsync')
-const lodashId = require('lodash-id')
-const fs = require('fs-extra')
+/* eslint-disable no-undef */
+/* eslint-disable global-require */
 
+import { app, BrowserWindow, protocol } from 'electron'
+import { join } from 'path'
+import low from 'lowdb'
+import FileAsync from 'lowdb/adapters/FileAsync'
+import { existsSync, readdirSync } from 'fs-extra'
 
 // const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-devtools-installer')
 
-
 // hide content-security-policy warning in console
-// process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = true
+process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = true
 
 if (require('electron-squirrel-startup')) {
   app.quit()
@@ -24,6 +24,7 @@ const createMainWindow = () => {
     autoHideMenuBar: true,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      // nodeIntegration: true
     },
   })
 
@@ -34,6 +35,7 @@ const createMainWindow = () => {
   require('./modules/database')
   require('./modules/media')
   require('./modules/images')
+  require('./modules/general')
 }
 
 const createSetupWindow = () => {
@@ -52,52 +54,50 @@ const createSetupWindow = () => {
 }
 
 const createWindow = async () => {
-  appDBPath = path.join(app.getPath('userData'), 'appdata.json')
+  // createMainWindow()
+  const appDBPath = join(app.getPath('userData'), 'appdata.json')
 
   const adapter = new FileAsync(appDBPath)
   const appDB = await low(adapter)
 
-  if (!fs.existsSync(appDBPath)) {
+  if (!existsSync(appDBPath)) {
     appDB.defaults({ settings: { rootFolder: '/home/walker/Sandbox/Abridged' } }).write()
     createSetupWindow()
-
   } else {
     // simply if any issues arise go to the setup page.
-    // let dir
-    // try {
-    //   dir = appDB.get('settings.rootFolder').value()
+    let dir
+    try {
+      dir = appDB.get('settings.rootFolder').value()
+    } catch {
+      createSetupWindow()
+      return
+    }
 
-    // } catch {
-    //   createSetupWindow()
-    //   return
-    // }
+    // check if root folder exists in appDB
+    if (dir === '' || dir === undefined) {
+      createSetupWindow()
+      return
+    }
 
-    // // check if root folder exists in appDB
-    // if (dir === '' || dir === undefined) {
-    //   createSetupWindow()
-    //   return
-    // }
+    let files
+    try {
+      files = readdirSync(dir)
+    } catch (err) {
+      console.log(err)
+      return
+    }
 
-    // let files
-    // try {
-    //   files = fs.readdirSync(dir)
-    // } catch (err) {
-    //   console.log(err)
-    //   return err
-    // }
-
-    // // check if all primary dirs and files exist in appDB root folder
-    // if (!files.includes('Series') || !files.includes('Shorts') || !files.includes('Shots')) {
-    //   createSetupWindow()
-    //   return
-    // }
+    // check if all primary dirs and files exist in appDB root folder
+    if (!files.includes('Series') || !files.includes('Shorts') || !files.includes('Shots')) {
+      createSetupWindow()
+      return
+    }
 
     createMainWindow()
   }
 }
 
 app.on('ready', createWindow)
-
 
 app.whenReady().then(() => {
   // const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-devtools-installer')
@@ -109,8 +109,7 @@ app.whenReady().then(() => {
     const url = request.url.replace('absfile://', '')
     try {
       return callback(url)
-    }
-    catch (error) {
+    } catch (error) {
       console.error(error)
       return callback(404)
     }

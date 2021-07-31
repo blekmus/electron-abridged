@@ -1,5 +1,4 @@
 module.exports = [
-  // Add support for native node modules
   {
     test: /\.node$/,
     use: 'node-loader',
@@ -8,7 +7,7 @@ module.exports = [
     test: /\.(m?js|node)$/,
     parser: { amd: false },
     use: {
-      loader: '@marshallofsound/webpack-asset-relocator-loader',
+      loader: '@vercel/webpack-asset-relocator-loader',
       options: {
         outputAssetBase: 'native_modules',
       },
@@ -33,10 +32,12 @@ module.exports = [
         mimetype: 'application/font-woff',
       },
     }],
-  }, {
+  },
+  {
     test: /\.(mp4|ogg)$/,
     loader: 'file-loader',
-  }, {
+  },
+  {
     test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
     use: [{
       loader: 'url-loader',

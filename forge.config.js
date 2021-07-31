@@ -24,8 +24,7 @@ module.exports = {
   ],
   plugins: [
     [
-      '@electron-forge/plugin-webpack',
-      {
+      '@electron-forge/plugin-webpack', {
         mainConfig: './webpack/webpack.main.config.js',
         devContentSecurityPolicy: "default-src 'self' 'unsafe-inline' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' data:",
         renderer: {
@@ -39,13 +38,13 @@ module.exports = {
                 js: './src/electron/preload.js',
               },
             },
-
             {
               html: './src/index.html',
               js: './src/Setup.jsx',
               name: 'setup_window',
             },
           ],
+          nodeIntegration: false, // disabling this simply fails with 'require is not defined'
         },
       },
     ],

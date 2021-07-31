@@ -1,7 +1,4 @@
-import {
-  contextBridge,
-  ipcRenderer,
-} from 'electron'
+import { contextBridge, ipcRenderer } from 'electron'
 
 // ipcs
 contextBridge.exposeInMainWorld('electron', {
@@ -82,14 +79,10 @@ contextBridge.exposeInMainWorld('electron', {
       .catch((e) => e)
   ),
 
-  // restartDialog: () => {
-  //   dialog.showMessageBox(null, {
-  //     type: 'question',
-  //     buttons: ['Restart'],
-  //     message: 'Restart app for changes to take effect',
-  //   }, () => {
-  //     app.relaunch()
-  //     app.exit(0)
-  //   })
-  // },
+  restartDialog: () => (
+    ipcRenderer
+      .invoke('restartDialog')
+      .then((result) => result)
+      .catch((e) => e)
+  ),
 })
