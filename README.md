@@ -1,10 +1,10 @@
 # Electron-abridged
 
-Abridged anime but in an electron app. Unfinished and probably never will. Replaced by [abridged-cli](https://github.com/blekmus/abridged-cli).
+Abridged anime but in an electron app. Unfinished and probably never will be. Replaced by [abridged-cli](https://github.com/blekmus/abridged-cli).
 
 ## Artworks
 
-Made these artworks for both fun and as background images for the app.
+Made these artworks for fun and as background images for the app.
 
 ![card (1)](https://github.com/blekmus/electron-abridged/assets/47277246/1d0a7bec-f7a2-4134-becb-b0aab4ea0827)
 ![card (3)](https://github.com/blekmus/electron-abridged/assets/47277246/a5bc4657-f34e-424f-afb5-c59467f024c6)
